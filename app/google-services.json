@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "597527084076",
+    "project_id": "strydotech-anti-theft-traking",
+    "storage_bucket": "strydotech-anti-theft-traking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597527084076:android:18cd06124d53cceab8e589",
+        "android_client_info": {
+          "package_name": "com.example.strydotech_anti_thefttraking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597527084076-cebrehsgubba053ttco0ktgpmk6lc9l8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9nTMlOMjhaS8xoUsXbcGyKJq0wHTiO8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597527084076-cebrehsgubba053ttco0ktgpmk6lc9l8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

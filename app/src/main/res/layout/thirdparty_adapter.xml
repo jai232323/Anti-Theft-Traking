@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/User"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:background="@drawable/gradient_img6"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:id="@+id/UserImage"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/add_icon"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="4"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Missing Item"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:id="@+id/ComplaintMissingItem"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Name"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:id="@+id/UserName"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Address"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:id="@+id/UserAddress"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Phone Number"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:id="@+id/UserPhoneNumber"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Sended"
+                android:visibility="gone"
+                android:id="@+id/DataVisible"
+                android:layout_marginTop="180dp"/>
+
+        </LinearLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_marginTop="150dp"
+                    android:layout_width="match_parent"
+                    app:boxStrokeColor="@color/white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter MissingItem Location..."
+                        android:inputType="text"
+                        android:id="@+id/MissingItemsLocation"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Location , Data Available or Data Unavailable"
+            android:layout_marginTop="215dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="14dp"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="Submit"
+                    android:layout_marginTop="240dp"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    app:strokeColor="@color/white"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:id="@+id/Submit"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="Data Verified"
+            android:layout_marginTop="290dp"
+            android:id="@+id/DataVerified"
+            android:visibility="gone"
+            android:layout_marginRight="20dp"/>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

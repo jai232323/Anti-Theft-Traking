@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    android:background="@drawable/gradient_img"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/antitheftlogo1"/>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            app:boxStrokeColor="@color/white"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email..."
+                android:inputType="textEmailAddress"
+                android:id="@+id/UserEmail"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginTop="3dp"
+            app:boxStrokeColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Student Password..."
+                android:inputType="textPassword"
+                android:id="@+id/UserPassword"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            app:strokeColor="@color/lightblue"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="true"
+            android:textColor="@color/lightblue"
+            android:textSize="20sp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:id="@+id/UserLoginBtn"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account ? Sign Up"
+            android:textSize="18sp"
+            android:id="@+id/User_txt_signup"
+            android:textColor="@color/lightblue"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+<!--    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--        android:layout_width="160dp"-->
+<!--        android:layout_height="160dp"-->
+<!--        android:src="@drawable/track_icon1"-->
+<!--        android:visibility="gone"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginTop="100dp"/>-->
+
+
+</androidx.core.widget.NestedScrollView>

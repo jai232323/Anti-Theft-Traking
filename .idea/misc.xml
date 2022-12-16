@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/drawable/background_color.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/drawable/background_shape1.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/drawable/background_shape2.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/drawable/circle_pink.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/drawable/circle_white.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/drawable/ic_share.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_admin_email.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_admin_main.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_complaints.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_complaints_admi_main.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_complaints_receiving.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_reg_login.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_splashscreen.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_third_party.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_third_party_email.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_third_party_main.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_third_party_response.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_user_admi_main.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_user_admin.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/activity_user_main.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/complaints_form_adapter.xml" value="0.264" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/fragment_complaints.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/fragment_user_prfofile.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/no_data_found_faculty.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/thirdparty_adapter.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/thirdparty_response_adapter.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/layout/user_form_adapter.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/StrydoTech_AntitheftTraking/app/src/main/res/menu/bottom_navigation.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
